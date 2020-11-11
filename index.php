@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<main class="main">
+    <h1>аис гмц</h1>
+    <header>
+        <div class="header">подсистема регистрации обращений граждан</div>
+        <div class="user">оператор</div>
+    </header>
+    <div class="content">
+        <div class="main_content">
+            <div class="header_app">карточка обращения №170 дата и время обращения [21.08.2007 15:12:12]</div>
+
+            <form action="#" method="post">
+                <h2>Данные о проишествии</h2>
+                <div class="input_container">
+                    <label class="main_label" for="cause">Причина события: </label>
+                    <input class="main_input bgc_img input_text" id="cause" type="text" name="cause">
+                </div>
+                <div class="input_container">
+                    <label class="main_label" for="place">Место события: </label>
+                    <input class="main_input bgc_img input_text" id="place" type="text" name="place">
+                </div>
+                <div class="input_container">
+                    <label class="main_label" for="victim">Потерпевший: </label>
+                    <input class="main_input bgc_img input_text" id="victim" type="text" name="victim">
+                </div>
+                <h2 class="header_adress">Адрес проишествия</h2>
+                    <div class="adress">
+                        <label class="main_label" for="street" >Улица</label>
+                        <input class="bgc_img input_text" type="text" id="street" name="street">
+
+                        <label class="main_label" for="house" >Дом</label>
+                        <input class="bgc_img input_text" type="text" id="house" name="house">
+
+                        <label class="main_label" for="housing" >Корпус</label>
+                        <input class="bgc_img input_text" type="text" id="housing" name="housing">
+
+                        <label class="main_label" for="apartment" >Квартира</label>
+                        <input class="input_text" type="text" id="apartment" name="apartment">
+
+                        <label class="main_label" for="floor" >Этаж</label>
+                        <input class="input_text" type="text" id="floor" name="floor">
+                    </div>
+
+                <div class="input_container">
+                    <label class="main_label" for="district ">Район: </label>
+                    <input class="main_input bgc_img input_text" id="district " type="text" name="district ">
+                </div>
+                <div class="input_container">
+                    <label class="main_label" for="description">Описание обращения: </label>
+                    <textarea class="main_input input_text" name="description" id="description"  rows="3"></textarea>
+
+                </div>
+
+
+                <h2>Данные о заявителе</h2>
+                <div class="input_container">
+                    <label class="main_label" for="phone">Номер телефона: </label>
+                    <input class="main_input input_text" id="phone" type="text" name="phone">
+                </div>
+                <div class="input_container">
+                    <label class="main_label" for="name">ФИО: </label>
+                    <input class="main_input input_text" id="name" type="text" name="name">
+                </div>
+
+                <h2 class="header_adress">Адрес заявителя</h2>
+                <div class="adress">
+                    <input id="coincidence" type="checkbox" name="coincidence">
+                    <label class="main_label_checkbox" id="coincidence_label" for="coincidence" >Адрес заявителя идентичен адресу проишествия</label>
+                </div>
+                <div class="adress">
+                    <label class="main_label" for="victim_street" >Улица</label>
+                    <input class="bgc_img input_text" type="text" id="victim_street" name="victim_street">
+
+                    <label class="main_label" for="victim_house" >Дом</label>
+                    <input class="bgc_img input_text" type="text" id="victim_house" name="victim_house">
+
+                    <label class="main_label" for="victim_housing" >Корпус</label>
+                    <input class="bgc_img input_text" type="text" id="victim_housing" name="victim_housing">
+
+                    <label class="main_label" for="victim_apartment" >Квартира</label>
+                    <input class="input_text" type="text" id="victim_apartment" name="victim_apartment">
+
+                    <input type="checkbox" id="anon" name="anon">
+                    <label class="main_label" for="anon" >Аноним</label>
+                </div>
+
+                <div class="keys_container">
+                    <input type="checkbox" id="01" name="01">
+                    <label class="second_label" for="01" >Сообщить в 01</label>
+
+                    <input type="checkbox" id="02" name="02">
+                    <label class="second_label" for="02" >Сообщить в 02</label>
+
+                    <input type="checkbox" id="03" name="03">
+                    <label class="second_label" for="03" >Сообщить в 03</label>
+
+                    <input type="checkbox" id="004" name="004">
+                    <label class="second_label" for="004" >Сообщить в 004</label>
+
+                    <input type="checkbox" id="sit_center" name="sit_center">
+                    <label class="second_label" for="sit_center" >Сообщить в ситуац. центр</label>
+                </div>
+
+                <div class="keys_container">
+                    Включить в обращение:
+                    <input type="checkbox" id="call" name="call">
+                    <label class="second_label" for="call" >Запись звонка</label>
+
+                    <input type="checkbox" id="video" name="video">
+                    <label class="second_label" for="video" >Запись видео</label>
+                </div>
+
+                <div class="input_container">
+                    <label class="main_label" for="event_list">Список зарегистрированых событий: </label>
+                    <textarea class="main_input input_text" name="event_list" id="event_list"  rows="3"></textarea>
+                </div>
+
+                <div class="bottom_menu_container">
+                    <div class="bottom_menu">
+                        <button>Зарегистрировать</button>
+                        <a href="#">Заригистрировать на имеющееся событие</a>
+                    </div>
+
+                    <a class="cancel" href="#">Отмена</a>
+                </div>
+
+
+            </form>
+        </div>
+
+        <aside>
+            <label class="button" for="01"><span class="mess">Сообщить в 01</span><span class="keys">Alt+1</span></label>
+            <label class="button" for="02"><span class="mess">Сообщить в 02</span><span class="keys">Alt+2</span></label>
+            <label class="button" for="03"><span class="mess">Сообщить в 03</span><span class="keys">Alt+3</span></label>
+            <label class="button" for="004"><span class="mess">Сообщить в 004</span><span class="keys">Alt+4</span></label>
+            <label class="button" for="sit_center"><span class="mess">Сообщить в СЦ</span><span class="keys">Alt+5</span></label>
+            <label class="button" for="call"><span class="mess">Сохранить аудио-запись</span><span class="keys">Alt+6</span></label>
+            <label class="button" for="video"><span class="mess">Сохранить видео-запись</span><span class="keys">Alt+7</span></label>
+        </aside>
+    </div>
+</main>
+</body>
+</html>

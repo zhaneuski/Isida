@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    max-height: 100vh
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1 {
+    padding: 0;
+    text-align: center;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #295d95;
+    font-weight: bold;
+}
+
+header {
+    background-color: #b6c9d5;
+    font-size: 0.7rem;
+    padding: 0.2rem 0;
+    display: flex;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #c70505;
+    font-weight: bold;
+    width: 90%;
+}
+
+.user {
+    width: 10%;
+    text-align: right;
+    padding-right: 7px;
+}
+
+.content {
+    margin-top: 1rem;
+    display: flex;
+    border: 2px solid #839393;
+    padding: 5px;
+    background-color: #e0e4e7;
+}
+
+.main_content {
+    width: 85%;
+}
+
+aside {
+    width: 15%;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.button {
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #e8eff5, #a0bfdc);
+    margin: 10px 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+}
+
+.keys {
+    font-weight: bolder;
+}
+
+.header_app {
+    border: 1px solid cadetblue;
+    padding: 1px 0 1px 15px ;
+    color: #295d95;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    background-color: white;
+    font-weight: bolder;
+}
+ h2 {
+     font-size: 0.7rem;
+     color: blue;
+     padding: 2px 0 2px 15px ;
+     margin: 2px;
+ }
+
+ .input_container {
+     display: flex;
+     margin: 3px 20px;
+ }
+
+ .main_label, .main_label_checkbox {
+     width: 15%;
+     text-align: right;
+     font-size: 0.7rem;
+     font-weight: bolder;
+     margin-right: 5px;
+     padding-top: 2.5px;
+ }
+
+ .second_label {
+     width: 15%;
+     text-align: right;
+     font-size: 0.7rem;
+     margin-right: 5px;
+     padding-top: 2.5px;
+ }
+
+ .keys_container {
+ font-size: 0.7rem;
+ }
+
+input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+}
+
+ .main_input {
+     width: 85%;
+ }
+
+ .bgc_img {
+     background-image: url("../img/icon.png");
+     background-repeat: no-repeat;
+     background-position: 0px 0px;
+     background-size: auto 100%;
+     padding-left: 20px;
+ }
+
+textarea {
+    resize: none;
+}
+
+ .header_adress, .adress,  .keys_container {
+     margin-left: 11rem;
+     padding: 2px 0 2px 15px ;
+ }
+
+
+
+ #street, #victim_street {
+     width: 40%;
+ }
+
+#house, #victim_house {
+    width: 8%;
+}
+
+#housing, #victim_housing {
+    width: 8%;
+}
+
+#apartment, #victim_apartment {
+    width: 3%;
+}
+
+#floor, #victim_floor {
+    width: 3%;
+}
+
+.bottom_menu_container {
+    margin: 10px 0 10px 11.9rem;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    margin-right: 2.5rem;
+}
+
+.cancel {
+    display: block;
+    margin-right: 1.3rem;
+    color: red;
+}
+
+.active {
+    background-color: #84afd9;
+}
